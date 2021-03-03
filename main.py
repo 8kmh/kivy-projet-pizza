@@ -4,6 +4,9 @@ from kivy.uix.boxlayout import BoxLayout
 from models import Pizza
 
 
+class PizzaWidget(BoxLayout):
+    pass
+
 class MainWidget(BoxLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
